@@ -14,5 +14,7 @@ def hello_t(array)
     if name.start_with?("T")
       puts "Hi, #{name}"
     end
+  else
+    puts "Hey! No block was given!"
   end
 end
